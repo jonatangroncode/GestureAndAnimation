@@ -28,6 +28,9 @@ class ViewController: UIViewController {
         showGetsure(name: "Tap")
     }
 
+    @IBAction func handleDoubleTap(_ sender: UITapGestureRecognizer) {
+        showGetsure(name: "Duble tap")
+    }
     
     func showGetsure(name: String){
         gestureNameLabel.text = name
